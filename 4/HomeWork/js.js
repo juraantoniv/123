@@ -32,7 +32,7 @@
 
 // - створити функцію яка повертає найбільше число з масиву
 
-let arr=[5,7,20,15,22,]
+// let arr=[5,7,20,15,22,]
 // function max(arr){
 //     let max=arr[0];
 //     for (const arrElement of arr) {
@@ -79,3 +79,12 @@ let arr=[5,7,20,15,22,]
 // }
 //  document.write(Math.round(ser(arr)))
 //
+function rand(limit){
+    let arr = [];
+    for (let i = 0; i < limit; i++) {
+        arr.push(Math.round(Math.random()*10))
+    }
+
+}
+
+rand(10)
